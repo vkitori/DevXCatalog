@@ -29,46 +29,81 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            DevExpress.XtraEditors.SplitContainerControl splitContainerControl1;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.svgImageBox1 = new DevExpress.XtraEditors.SvgImageBox();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
+            this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
             this.bar2 = new DevExpress.XtraBars.Bar();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
             this.bar3 = new DevExpress.XtraBars.Bar();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
             this.behaviorManager1 = new DevExpress.Utils.Behaviors.BehaviorManager(this.components);
-            this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
-            this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.svgImageBox1 = new DevExpress.XtraEditors.SvgImageBox();
-            this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
+            splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
+            ((System.ComponentModel.ISupportInitialize)(splitContainerControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(splitContainerControl1.Panel1)).BeginInit();
+            splitContainerControl1.Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(splitContainerControl1.Panel2)).BeginInit();
+            splitContainerControl1.Panel2.SuspendLayout();
+            splitContainerControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.svgImageBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1.Panel1)).BeginInit();
-            this.splitContainerControl1.Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1.Panel2)).BeginInit();
-            this.splitContainerControl1.Panel2.SuspendLayout();
-            this.splitContainerControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.svgImageBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // splitContainerControl1
+            // 
+            splitContainerControl1.AlwaysScrollActiveControlIntoView = false;
+            resources.ApplyResources(splitContainerControl1, "splitContainerControl1");
+            splitContainerControl1.CausesValidation = false;
+            splitContainerControl1.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.None;
+            splitContainerControl1.Name = "splitContainerControl1";
+            // 
+            // splitContainerControl1.Panel1
+            // 
+            resources.ApplyResources(splitContainerControl1.Panel1, "splitContainerControl1.Panel1");
+            splitContainerControl1.Panel1.Controls.Add(this.labelControl1);
+            // 
+            // splitContainerControl1.Panel2
+            // 
+            splitContainerControl1.Panel2.Controls.Add(this.svgImageBox1);
+            resources.ApplyResources(splitContainerControl1.Panel2, "splitContainerControl1.Panel2");
+            splitContainerControl1.SplitterPosition = 600;
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl1.Appearance.Font")));
+            this.labelControl1.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.labelControl1, "labelControl1");
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Click += new System.EventHandler(this.labelControl1_Click);
+            // 
+            // svgImageBox1
+            // 
+            resources.ApplyResources(this.svgImageBox1, "svgImageBox1");
+            this.svgImageBox1.Name = "svgImageBox1";
+            this.svgImageBox1.SizeMode = DevExpress.XtraEditors.SvgImageSizeMode.Squeeze;
+            this.svgImageBox1.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("svgImageBox1.SvgImage")));
             // 
             // layoutControl1
             // 
-            this.layoutControl1.Controls.Add(this.splitContainerControl1);
+            this.layoutControl1.Controls.Add(splitContainerControl1);
             resources.ApplyResources(this.layoutControl1, "layoutControl1");
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(1108, 424, 812, 500);
@@ -83,6 +118,15 @@
             this.Root.Name = "Root";
             this.Root.Size = new System.Drawing.Size(1278, 698);
             this.Root.TextVisible = false;
+            // 
+            // layoutControlItem1
+            // 
+            this.layoutControlItem1.Control = splitContainerControl1;
+            this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
+            this.layoutControlItem1.Name = "layoutControlItem1";
+            this.layoutControlItem1.Size = new System.Drawing.Size(1258, 678);
+            this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem1.TextVisible = false;
             // 
             // barManager1
             // 
@@ -193,6 +237,23 @@
             this.barButtonItem4.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem4.Name = "barButtonItem4";
             // 
+            // barButtonItem5
+            // 
+            resources.ApplyResources(this.barButtonItem5, "barButtonItem5");
+            this.barButtonItem5.Id = 5;
+            this.barButtonItem5.ItemAppearance.Hovered.BackColor = System.Drawing.Color.Silver;
+            this.barButtonItem5.ItemAppearance.Hovered.Font = ((System.Drawing.Font)(resources.GetObject("barButtonItem5.ItemAppearance.Hovered.Font")));
+            this.barButtonItem5.ItemAppearance.Hovered.Options.UseBackColor = true;
+            this.barButtonItem5.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem5.ItemAppearance.Normal.Font = ((System.Drawing.Font)(resources.GetObject("barButtonItem5.ItemAppearance.Normal.Font")));
+            this.barButtonItem5.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem5.ItemAppearance.Pressed.BackColor = System.Drawing.Color.Silver;
+            this.barButtonItem5.ItemAppearance.Pressed.Font = ((System.Drawing.Font)(resources.GetObject("barButtonItem5.ItemAppearance.Pressed.Font")));
+            this.barButtonItem5.ItemAppearance.Pressed.FontStyleDelta = ((System.Drawing.FontStyle)(resources.GetObject("barButtonItem5.ItemAppearance.Pressed.FontStyleDelta")));
+            this.barButtonItem5.ItemAppearance.Pressed.Options.UseBackColor = true;
+            this.barButtonItem5.ItemAppearance.Pressed.Options.UseFont = true;
+            this.barButtonItem5.Name = "barButtonItem5";
+            // 
             // bar3
             // 
             this.bar3.BarName = "Status bar";
@@ -229,66 +290,9 @@
             resources.ApplyResources(this.barDockControlRight, "barDockControlRight");
             this.barDockControlRight.Manager = this.barManager1;
             // 
-            // splitContainerControl1
-            // 
-            resources.ApplyResources(this.splitContainerControl1, "splitContainerControl1");
-            this.splitContainerControl1.CollapsePanel = DevExpress.XtraEditors.SplitCollapsePanel.Panel1;
-            this.splitContainerControl1.Name = "splitContainerControl1";
-            // 
-            // splitContainerControl1.Panel1
-            // 
-            resources.ApplyResources(this.splitContainerControl1.Panel1, "splitContainerControl1.Panel1");
-            this.splitContainerControl1.Panel1.Controls.Add(this.labelControl1);
-            // 
-            // splitContainerControl1.Panel2
-            // 
-            this.splitContainerControl1.Panel2.Controls.Add(this.svgImageBox1);
-            resources.ApplyResources(this.splitContainerControl1.Panel2, "splitContainerControl1.Panel2");
-            this.splitContainerControl1.SplitterPosition = 600;
-            // 
-            // layoutControlItem1
-            // 
-            this.layoutControlItem1.Control = this.splitContainerControl1;
-            this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
-            this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(1258, 678);
-            this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem1.TextVisible = false;
-            // 
-            // labelControl1
-            // 
-            this.labelControl1.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl1.Appearance.Font")));
-            this.labelControl1.Appearance.Options.UseFont = true;
-            resources.ApplyResources(this.labelControl1, "labelControl1");
-            this.labelControl1.Name = "labelControl1";
-            // 
             // gridView1
             // 
             this.gridView1.Name = "gridView1";
-            // 
-            // svgImageBox1
-            // 
-            resources.ApplyResources(this.svgImageBox1, "svgImageBox1");
-            this.svgImageBox1.Name = "svgImageBox1";
-            this.svgImageBox1.SizeMode = DevExpress.XtraEditors.SvgImageSizeMode.Squeeze;
-            this.svgImageBox1.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("svgImageBox1.SvgImage")));
-            // 
-            // barButtonItem5
-            // 
-            resources.ApplyResources(this.barButtonItem5, "barButtonItem5");
-            this.barButtonItem5.Id = 5;
-            this.barButtonItem5.ItemAppearance.Hovered.BackColor = System.Drawing.Color.Silver;
-            this.barButtonItem5.ItemAppearance.Hovered.Font = ((System.Drawing.Font)(resources.GetObject("barButtonItem5.ItemAppearance.Hovered.Font")));
-            this.barButtonItem5.ItemAppearance.Hovered.Options.UseBackColor = true;
-            this.barButtonItem5.ItemAppearance.Hovered.Options.UseFont = true;
-            this.barButtonItem5.ItemAppearance.Normal.Font = ((System.Drawing.Font)(resources.GetObject("barButtonItem5.ItemAppearance.Normal.Font")));
-            this.barButtonItem5.ItemAppearance.Normal.Options.UseFont = true;
-            this.barButtonItem5.ItemAppearance.Pressed.BackColor = System.Drawing.Color.Silver;
-            this.barButtonItem5.ItemAppearance.Pressed.Font = ((System.Drawing.Font)(resources.GetObject("barButtonItem5.ItemAppearance.Pressed.Font")));
-            this.barButtonItem5.ItemAppearance.Pressed.FontStyleDelta = ((System.Drawing.FontStyle)(resources.GetObject("barButtonItem5.ItemAppearance.Pressed.FontStyleDelta")));
-            this.barButtonItem5.ItemAppearance.Pressed.Options.UseBackColor = true;
-            this.barButtonItem5.ItemAppearance.Pressed.Options.UseFont = true;
-            this.barButtonItem5.Name = "barButtonItem5";
             // 
             // Main
             // 
@@ -303,21 +307,21 @@
             this.IconOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("Main.IconOptions.SvgImage")));
             this.Name = "Main";
             this.Load += new System.EventHandler(this.CatalogApp_Load);
+            ((System.ComponentModel.ISupportInitialize)(splitContainerControl1.Panel1)).EndInit();
+            splitContainerControl1.Panel1.ResumeLayout(false);
+            splitContainerControl1.Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(splitContainerControl1.Panel2)).EndInit();
+            splitContainerControl1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(splitContainerControl1)).EndInit();
+            splitContainerControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.svgImageBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1.Panel1)).EndInit();
-            this.splitContainerControl1.Panel1.ResumeLayout(false);
-            this.splitContainerControl1.Panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1.Panel2)).EndInit();
-            this.splitContainerControl1.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
-            this.splitContainerControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.svgImageBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -339,7 +343,6 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem3;
         private DevExpress.XtraBars.BarButtonItem barButtonItem4;
         private DevExpress.Utils.Behaviors.BehaviorManager behaviorManager1;
-        private DevExpress.XtraEditors.SplitContainerControl splitContainerControl1;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.SvgImageBox svgImageBox1;
