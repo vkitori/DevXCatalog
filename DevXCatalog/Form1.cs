@@ -9,11 +9,26 @@ using System.Windows.Forms;
 
 namespace DevXCatalog
 {
-    public partial class Form1 : DevExpress.XtraEditors.XtraForm
+    public partial class Main : DevExpress.XtraEditors.XtraForm
     {
-        public Form1()
+        public Main()
         {
             InitializeComponent();
+        }
+
+        private void CatalogApp_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
+
+        private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
         }
     }
 }

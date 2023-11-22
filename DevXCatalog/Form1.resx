@@ -60,45 +60,45 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
-              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
-              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
-              <xsd:attribute ref="xml:space"></xsd:attribute>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
-              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
-              <xsd:attribute ref="xml:space"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -117,4 +117,737 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainerControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainerControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainerControl1.Panel1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelControl1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 22.2pt</value>
+  </data>
+  <data name="labelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 285</value>
+  </data>
+  <data name="labelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>471, 44</value>
+  </data>
+  <data name="labelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelControl1.Text" xml:space="preserve">
+    <value>Welcome to Catalog App!</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Name" xml:space="preserve">
+    <value>labelControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Parent" xml:space="preserve">
+    <value>splitContainerControl1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainerControl1.Panel1.Text" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Panel1.Name" xml:space="preserve">
+    <value>splitContainerControl1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Panel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SplitGroupPanel, DevExpress.Utils.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="svgImageBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="svgImageBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 30</value>
+  </data>
+  <data name="svgImageBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 600</value>
+  </data>
+  <assembly alias="DevExpress.Data.v23.1" name="DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="svgImageBox1.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIzLjEsIFZlcnNpb249MjMuMS42
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAJNCAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgd2lkdGg9Ijg2NS43NnB4
+        IiBoZWlnaHQ9IjY4Mi44OXB4IiB2aWV3Qm94PSIwIDAgODY1Ljc2IDY4Mi44OSIgeG1sbnM9Imh0dHA6
+        Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBpZD0iYSI+DQogIDxnPg0KICAgIDxnPg0KICAgICAgPHBhdGgg
+        ZD0iTTQ2My40NSw1OTguMzRsLTI0Ni4zNSwuMTJoLTQ0LjEycy0uMS01ODYuMDEtLjEtNTg2LjAxbDQ0
+        LjA2LS41MiwyNDUuNS0uMTIsMS4wMiw0My40MXY0LjMxcy4xLDQ5NS4zOCwuMSw0OTUuMzhsLS4xMiw0
+        My40MloiIGZpbGw9IiMwMDIzNDYiIHN0cm9rZT0iIzAwMjM0NiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEw
+        IiAvPg0KICAgICAgPHBhdGggZD0iTTQ3NS40NSw1OTguMzRsLTI0Ni4zNSwuMTJoLTQ0LjEycy0uMS01
+        ODYuMDEtLjEtNTg2LjAxbDQ0LjA2LS41MiwyNDUuNS0uMTIsMS4wMiw0My40MXY0LjMxcy4xLDQ5NS4z
+        OCwuMSw0OTUuMzhsLS4xMiw0My40MloiIGZpbGw9IiNmYmU0OTMiIHN0cm9rZT0iIzAwMjM0NiIgc3Ry
+        b2tlLW1pdGVybGltaXQ9IjEwIiAvPg0KICAgICAgPHBhdGggZD0iTTM3My40NSwyOS41MWgyMy4zN2w2
+        NS42My0uMDItLjM4LDMwLjM5LC4xLDQ4Ny43MywuMjgsMzAuNDEtMjMzLjE0LC4xMS0zMC45LC4zLS4x
+        LTU0OSwzMC44NiwuMTUsNDkuMjgtLjAyLS41MSw5Ljh2Ny4wMWMwLDUuNDMsNC4yNyw5LjgsOS41Myw5
+        LjhsNzYuNDktLjA0YzUuMjYsMCw5LjUzLTQuNCw5LjUzLTkuODJ2LTcuMDFsLS4wNC05LjgyWiIgZmls
+        bD0iI2ZmZiIgc3Ryb2tlPSIjMDAyMzQ2IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+DQogICAgPC9n
+        Pg0KICAgIDxwYXRoIGQ9Ik02NzcuNTUsNjMuMjFjLS4yOS0xMy45My0xNC40OS0yNS4wNC0zMS43Ni0y
+        NC44MmwtMTI5LjU2LDEuNjljLTE3LjI2LC4yMi0zMS4wMiwxMS43LTMwLjc1LDI1LjYzbDEuMzcsNjgu
+        MzRjLjE4LDkuMDYsNi4yNSwxNi45MSwxNS4yMiwyMS4yNWwtNS45OSwyNy44Miw0MS42Ny0yNC40OSwx
+        MTAuNDEtMS40M2MxNy4yNi0uMjMsMzEuMDItMTEuNywzMC43NS0yNS42M2wtMS4zNi02OC4zNloiIGZp
+        bGw9IiNmZmYiIHN0cm9rZT0iIzAwMjM0NiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiAvPg0KICAgIDxw
+        YXRoIGQ9Ik01OTkuOSw3MS45NGgtNzIuOTljLTEuMTYsMC0yLjEsLjkyLTIuMTEsMi4wN2gwdjEwLjhj
+        MCwxLjE2LC45NSwyLjA5LDIuMTEsMi4wOGg3Mi45OWMxLjE2LDAsMi4xLS45MiwyLjExLTIuMDh2LTEw
+        LjhjMC0xLjE2LS45NS0yLjA5LTIuMS0yLjA4LDAsMCwwLDAsMCwwWiIgZmlsbD0iI2Y2OTA3NCIgc3Ry
+        b2tlPSIjMDAyMzQ2IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+DQogICAgPHBhdGggZD0iTTUyNS4w
+        Myw3MS45NGgtMjAuNDhjLTEuMTUsMC0yLjEsLjkyLTIuMTEsMi4wN2gwdjEwLjhjMCwxLjE2LC45NSwy
+        LjA5LDIuMTEsMi4wOGgyMC40OGMxLjE2LDAsMi4xLS45MiwyLjExLTIuMDhoMHYtMTAuOGMwLTEuMTUt
+        Ljk0LTIuMDgtMi4xLTIuMDgsMCwwLDAsMCwwLDBaIiBmaWxsPSIjZjY5MDc0IiBzdHJva2U9IiMwMDIz
+        NDYiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgLz4NCiAgICA8cGF0aCBkPSJNNTc5LjY0LDg2Ljl2NDdj
+        LS4wMyw0LjkxLTQuMDQsOC44Ni04Ljk1LDguODJoLTU2LjM3Yy00LjgzLS4wNy04Ljc0LTMuOTctOC43
+        OC04Ljgydi00N2g3NC4xWiIgZmlsbD0iI2Y2OTA3NCIgc3Ryb2tlPSIjMDAyMzQ2IiBzdHJva2UtbWl0
+        ZXJsaW1pdD0iMTAiIC8+DQogICAgPHBhdGggZD0iTTUyOS4wNiwxMzMuOWMuMDQsNC45MSw0LjA1LDgu
+        ODYsOC45Niw4LjgyaDUxLjY4YzQuOTEsLjA0LDguOTItMy45MSw4Ljk2LTguODJoMHYtNDdoLTY5LjZ2
+        NDdaIiBmaWxsPSIjZjY5MDc0IiBzdHJva2U9IiMwMDIzNDYiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIg
+        Lz4NCiAgICA8cG9seWdvbiBwb2ludHM9IjU1Ny4wNSA3MS43MyA1NzIuMjMgNzEuNzMgNTcyLjQ4IDg3
+        LjcgNTU3LjMgODcuNyA1NTcuMDUgNzEuNzMiIGZpbGw9IiNlNmU3ZTgiIHN0cm9rZT0iIzAwMjM0NiIg
+        c3Ryb2tlLW1pdGVybGltaXQ9IjEwIiAvPg0KICAgIDxwb2x5Z29uIHBvaW50cz0iNTEyLjEyIDcyLjcz
+        IDUxOC4wNSA3Mi43MyA1MTguMyA4Ni43MyA1MTIuMzcgODYuNzMgNTEyLjEyIDcyLjczIiBmaWxsPSIj
+        ZTZlN2U4IiBzdHJva2U9IiMwMDIzNDYiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgLz4NCiAgICA8cG9s
+        eWdvbiBwb2ludHM9IjUyMC4xNCAxNDIuNzIgNTE0LjMyIDE0Mi43MiA1MTMuNDMgODcuNyA1MTkuMjYg
+        ODcuNyA1MjAuMTQgMTQyLjcyIiBmaWxsPSIjZTZlN2U4IiBzdHJva2U9IiMwMDIzNDYiIHN0cm9rZS1t
+        aXRlcmxpbWl0PSIxMCIgLz4NCiAgICA8cG9seWdvbiBwb2ludHM9IjU1Ni4wOSA4Ny43IDU2OS4zIDg3
+        LjcgNTcwLjI0IDE0Mi43MyA1NTcuMDMgMTQyLjczIDU1Ni4wOSA4Ny43IiBmaWxsPSIjZTZlN2U4IiBz
+        dHJva2U9IiMwMDIzNDYiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgLz4NCiAgICA8cGF0aCBkPSJNNTI0
+        LjgsNTkuMjZjLTQuMTcsMi45OS0yLjE1LDEyLjY5LTIuMTUsMTIuNjloNC4wNXMtMi4zMS01LjgsMS4w
+        MS04LjExYzMuMzMtMi4zMSwxNC40Niw0LjA1LDE0LjQ2LDQuMDV2LTIuNDVzLTEzLjItOS4xOC0xNy4z
+        Ny02LjE5Wm01Mi4wNy0xLjg1Yy00LjkyLTQuNDEtMTkuODEsOS40LTE5LjgxLDkuNGwxLjQ0LDEuMDlz
+        MTAuNy03LjkzLDE0LjMxLTguMjEsMi40NiwxMi4yNywyLjQ2LDEyLjI3aDMuMjFzMy4zMS0xMC4xMy0x
+        LjYxLTE0LjU0WiIgZmlsbD0iI2Y2OTA3NCIgc3Ryb2tlPSIjMDAyMzQ2IiBzdHJva2UtbWl0ZXJsaW1p
+        dD0iMTAiIC8+DQogICAgPHBhdGggZD0iTTU1Ny42NCw2NC4wNWMtNi40MSwwLTE0LjctMS0xNS40Nywx
+        LjQtLjc3LDIuNC0xLjE0LDYuNS0xLjE0LDYuNWgyMS4xN3MxLjg1LTcuOS00LjU2LTcuOVoiIGZpbGw9
+        IiNlNmU3ZTgiIHN0cm9rZT0iIzAwMjM0NiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiAvPg0KICAgIDxw
+        b2x5Z29uIHBvaW50cz0iNjEyLjMzIDEzMC44IDY3MC41NCAxMzAuOCA2NzAuNTQgMTM4Ljc2IDY3MC41
+        NCAxMzguNzYgNjEyLjMzIDEzOC43NiA2MTIuMzMgMTMwLjgiIGZpbGw9IiNmNjkwNzQiIHN0cm9rZT0i
+        IzAwMjM0NiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiAvPg0KICAgIDxyZWN0IHg9IjYxMi40OCIgeT0i
+        MTE1LjQ4IiB3aWR0aD0iNDMuMSIgaGVpZ2h0PSI4LjI1IiBmaWxsPSIjZjY5MDc0IiBzdHJva2U9IiMw
+        MDIzNDYiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgLz4NCiAgICA8cmVjdCB4PSI2MTMuNDgiIHk9Ijcx
+        LjY2IiB3aWR0aD0iNTUuODciIGhlaWdodD0iMjYuMzMiIGZpbGw9IiNmYmU0OTMiIHN0cm9rZT0iIzAw
+        MjM0NiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiAvPg0KICAgIDxjaXJjbGUgY3g9IjYyNi40NyIgY3k9
+        Ijg1LjA4IiByPSI4LjkzIiBmaWxsPSIjZjY5MDc0IiBzdHJva2U9IiMwMDIzNDYiIHN0cm9rZS1taXRl
+        cmxpbWl0PSIxMCIgLz4NCiAgICA8cmVjdCB4PSI2NDAuODQiIHk9IjkwLjE1IiB3aWR0aD0iMjAuNTki
+        IGhlaWdodD0iMi4xIiBmaWxsPSIjZjY5MDc0IiBzdHJva2U9IiMwMDIzNDYiIHN0cm9rZS1taXRlcmxp
+        bWl0PSIxMCIgLz4NCiAgICA8Zz4NCiAgICAgIDxwb2x5Z29uIHBvaW50cz0iNDQyLjcyIDU5MC4zNCAz
+        NzIuMjcgNjQ1LjgyIDM4Ni44OCA2NDUuODIgNDQ1LjM0IDYwNC4wOCA0NDIuNzIgNTkwLjM0IiBmaWxs
+        PSIjZTZlN2U4IiBzdHJva2U9IiMwMDIzNDYiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgLz4NCiAgICAg
+        IDxwb2x5Z29uIHBvaW50cz0iNDQ5LjEzIDU4OS4wMSA0NDkuMjEgNjAzLjQzIDUwMi45MSA2NDUuODIg
+        NTE3LjMgNjQ1LjgyIDQ0OS4xMyA1ODkuMDEiIGZpbGw9IiNlNmU3ZTgiIHN0cm9rZT0iIzAwMjM0NiIg
+        c3Ryb2tlLW1pdGVybGltaXQ9IjEwIiAvPg0KICAgIDwvZz4NCiAgICA8cmVjdCB4PSI0MzkuMjgiIHk9
+        IjUzNC44NiIgd2lkdGg9IjEyLjEyIiBoZWlnaHQ9IjExMC45NyIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIj
+        MDAyMzQ2IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+DQogICAgPHBhdGggZD0iTTM5MS45NCw1MTgu
+        NTdoMTA3Ljk0djMuNjJjMCw5LjA4LTcuMzcsMTYuNDYtMTYuNDYsMTYuNDZoLTc1LjAzYy05LjA4LDAt
+        MTYuNDYtNy4zNy0xNi40Ni0xNi40NnYtMy42MmgwWiIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjMDAyMzQ2
+        IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+DQogICAgPHBvbHlnb24gcG9pbnRzPSI1MDMuMzcgMzgw
+        LjcxIDU4MC42NCAzODAuNzEgNTU1Ljk1IDQ2OC40NyA1MTUuODYgNTAyLjkxIDUwMy4zNyAzODAuNzEi
+        IGZpbGw9IiNlNmU3ZTgiIHN0cm9rZT0iIzAwMjM0NiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiAvPg0K
+        ICAgIDxwYXRoIGQ9Ik0zMTAuMTEsMzM1LjYxbDEwLjA3LDQ2LjYyLDg5LjkxLDgyLjk1LDEyNS42NSwy
+        MC4yMSwxOS4yNC0yNi40Ni0zOS4wMS03MC4wNi0zNS45Ni02NC44NGMtMi4zOC00LjE1LTYuODMtNi42
+        Ny0xMS42MS02LjZsLTE0NS42NCwyLjI2Yy04LjMsLjEzLTE0LjQsNy44Mi0xMi42NSwxNS45M1oiIGZp
+        bGw9IiNmZmYiIHN0cm9rZT0iIzAwMjM0NiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiAvPg0KICAgIDxw
+        YXRoIGQ9Ik0zNjYsMzc3Ljg3bC00My41NSwxLjUxYy0xNS45MSwuMzgtMTQuMTUsOS40My0xMi41MSwx
+        Ni4zMWwyNy4xNCwxMTQuMWMyLjQyLDkuMzcsMTAuOTQsMTUuODYsMjAuNjEsMTUuN2w2Ny41Mi0xLjEy
+        LTU5LjItMTQ2LjVaIiBmaWxsPSIjZTZlN2U4IiBzdHJva2U9IiMwMDIzNDYiIHN0cm9rZS1taXRlcmxp
+        bWl0PSIxMCIgLz4NCiAgICA8cGF0aCBkPSJNNTI2LjM5LDMxOC42cy0yLjQ1LDQuNTUtMTUuMDksNi45
+        MmMuOS00LjY4LDEuMDgtMTAuMTUtLjM0LTE2LjEtLjIzLS45OC0uNTYtMS45NC0uOTMtMi44Ny0uMzkt
+        Ljk3LS45NS0yLjU0LTEuNC00LjQzLS45NS0zLjkzLS43Mi04LjAzLC40Ny0xMS44OSwuNzctMi40OSwx
+        LjQ1LTYuNzItLjY5LTEwLjg3LC4yNywuMzYsMTcuMjQsMjMuNDcsMTcuOTksMzkuMjVaIiBmaWxsPSIj
+        ZjY5MDc0IiBzdHJva2U9IiMwMDIzNDYiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgLz4NCiAgICA8cGF0
+        aCBkPSJNMzgxLjAzLDM4Ni44M2wxNS4zNyw0OC4zYzIuNTYsOC4wNSw3LjE3LDE1LjM0LDEzLjU2LDIw
+        Ljg3LDcuOTksNi45LDIwLjM2LDEyLjk1LDM3LjkxLDkuNTRoNzguODJjOS4wOSwwLDE3LjU5LTQuNjMs
+        MjIuMzktMTIuMzUsNC4wNy02LjU1LDguNS0xNi4xMSwxMS43LTI5LjYybDkuOTUtMzcuNjJjMS4zMy01
+        LjAxLDUuODYtOC41MSwxMS4wNS04LjUxaDBjNy4yMiwwLDEyLjY0LDYuNjIsMTEuMiwxMy43bC0xOC41
+        LDkxLjQ2cy02LjYxLDQwLjU4LTU3LjI3LDQyLjA3aC04Ny45N3MtNDMuMzYsLjM1LTU0LjcyLTQ4LjVs
+        LTE4LjY2LTgyLjQ5Yy0xLjYxLTcuMTIsMi45My0xNC4xNywxMC4wNy0xNS42NmgwYzYuNTUtMS4zNywx
+        My4wNywyLjQ0LDE1LjEsOC44MloiIGZpbGw9IiNmZmYiIHN0cm9rZT0iIzAwMjM0NiIgc3Ryb2tlLW1p
+        dGVybGltaXQ9IjEwIiAvPg0KICAgIDxwYXRoIGQ9Ik00OTAuNiwzOTMuNzhsLTUuODYsMjQuMzEsMS4z
+        MiwuMzFjLTEyLjEyLDkuMDktMTcuODgsMjIuMzgtMTcuODgsMjIuMzgtNi43MywxOS42NiwzLjE3LDI2
+        LjIsMy4xNywyNi4ydjQuNjJjLTEwLjE3LDEuMjYtMjQuNTQsMS40My00MC4wMS00LjE1LTEuODMtLjY2
+        LTMuNTktMS4zNy01LjI2LTIuMTEtMy45NC0xLjc0LTcuNTMtNC4yMi0xMC40My03LjQxLS4yLS4yMi0u
+        MzktLjQzLS41Ny0uNjUtMTUuMDQtMTcuNS0yLjMtNDMuMjMtMi4zLTQzLjIzbDE0LjYzLTM4LjE2Yzcu
+        MDYsNy4yOCwxOS42Myw5LjQ2LDE5LjYzLDkuNDZsNDMuNTYsOC40NFoiIGZpbGw9IiNmYmU0OTMiIHN0
+        cm9rZT0iIzAwMjM0NiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiAvPg0KICAgIDxwYXRoIGQ9Ik01NDcu
+        MjcsNjU1LjIybC0yMy45MSwyLjM0Yy0yMS4yMSwuMzgtMTkuMzEtMjAuMjgtMTkuMzEtMjAuMjhsLTQu
+        MTctLjM2djE2LjQ4aC00LjE3Yy4zOC05LjQ3LTQuNTQtMzIuOTUtNC41NC0zMi45NS0xLjg2LTExLjE2
+        LDUuOS0xNi42Niw2LjE4LTE2Ljg1LS43MSwxLjU3LTEuMDYsMy4zLS45Nyw1LjA1LC43MSwxMy45MSw5
+        LjU3LDI0LjMsOS41NywyNC4zLDEwLjIzLDIyLjM0LDMyLjk1LDQuOTIsMzIuOTUsNC45MiwxOC41Niwx
+        My42Myw4LjM4LDE3LjM1LDguMzgsMTcuMzVaIiBmaWxsPSIjZjY5MDc0IiBzdHJva2U9IiMwMDIzNDYi
+        IHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgLz4NCiAgICA8cGF0aCBkPSJNNDU3LjgzLDU4Ni40NHMtNS44
+        OC0zLjY5LTcuMSwxMC45OWMwLDAtMy41NiwxMC4zOS03LjUsMTYuNTEsMCwwLTYuNzUsMTIuNzgtNC42
+        NCwyNC40NiwxLjY5LDkuMzMsMTIuMDksMTQuMzMsMjAuMjYsOS41Miw2LjY0LTMuOTEsMTMuNjItMTMu
+        MjMsMTUuNTMtMzQuNjlsLTE2LjU1LTI2Ljc4WiIgZmlsbD0iI2Y2OTA3NCIgc3Ryb2tlPSIjMDAyMzQ2
+        IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+DQogICAgPHBhdGggZD0iTTUxMS4yOSwzMjUuNTJjLTEu
+        OTQsMTAuMDktNy4yNSwxNi41Ni03LjI1LDE2LjU2bDIuMjcsMzAuMy02MC4zMi0xLjM4di00NC43N2wt
+        MzUuNDksMS40NmMtNS4zLTIwLjA3LTEuNTEtMzkuMDEtMS41MS0zOS4wMSw1LjMtMjcuMjcsMzcuMDEt
+        MjYuNDYsMzcuMDEtMjYuNDZsMjcuNzUsOS44LDE1LjUzLTMuNDFjMTEuNTYsMi4xMywxNi44OSw2LjQs
+        MTkuMTMsMTAuNzRoMGMyLjE0LDQuMTYsMS40NSw4LjM4LC42OSwxMC44OC0xLjE5LDMuODYtMS40MSw3
+        Ljk2LS40NywxMS44OSwuNDUsMS44OSwxLjAxLDMuNDYsMS40LDQuNDMsLjM3LC45NCwuNywxLjg5LC45
+        MywyLjg3LDEuNDIsNS45NiwxLjI0LDExLjQyLC4zNCwxNi4xWiIgZmlsbD0iI2Y2OTA3NCIgc3Ryb2tl
+        PSIjMDAyMzQ2IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+DQogICAgPHBhdGggZD0iTTQ1OC4zMywy
+        NTUuMnY3LjAzaC0xMi4zNGwyMC44NCwyMi4zNCwyMi40NC0xNS45Ni0xNC4zOS0zLjQxLC4zNC04Ljc3
+        cy04LjE4LS4zMS0xNC4xMS02Ljk0YzAsMC0uNzgsMy42NS0yLjc5LDUuN1oiIGZpbGw9IiNmMWIyYzAi
+        IHN0cm9rZT0iIzAwMjM0NiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiAvPg0KICAgIDxyZWN0IHg9IjQ1
+        NS43NSIgeT0iMjAxLjU4IiB3aWR0aD0iNDIuMDQiIGhlaWdodD0iNTQuOTEiIHJ4PSIyMS4wMiIgcnk9
+        IjIxLjAyIiBmaWxsPSIjZjFiMmMwIiBzdHJva2U9IiMwMDIzNDYiIHN0cm9rZS1taXRlcmxpbWl0PSIx
+        MCIgLz4NCiAgICA8cG9seWdvbiBwb2ludHM9IjUwNi4zMSAzNzIuMzggNTE1LjggMzg4Ljg4IDUxMiAz
+        OTAuNTEgNDgyLjA3IDM3MS40MSA1MDYuMzEgMzcyLjM4IiBmaWxsPSIjZmJlNDkzIiBzdHJva2U9IiMw
+        MDIzNDYiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgLz4NCiAgICA8cGF0aCBkPSJNNDEyLjUzLDMyNy42
+        N3M3LjA2LDMxLjQ1LDExLjk4LDQzLjU3YzAsMCwzLjAzLDEyLjEyLDI5LjE2LDE1LjE1bDM2Ljc0LDcu
+        NTdoMzkuNDlzLTYuODctOS42OS0xOC40Ny01LjMxYy0uNjIsLjIzLTEuMzEsLjE2LTEuODctLjE5bC01
+        Ny4wMi0zNS40MS02LjU1LTI2LjgzLTMzLjQ2LDEuNDRaIiBmaWxsPSIjZjFiMmMwIiBzdHJva2U9IiMw
+        MDIzNDYiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgLz4NCiAgICA8cGF0aCBkPSJNNTM5Ljk0LDQxOC4y
+        MWgzLjMzczguNDIsMTMuNjgsOS4xOCwyNi4wNGMuMTEsMS44MS0uMjgsMy42Mi0xLjEzLDUuMjItLjg1
+        LDEuNTgtMi4xNywzLjgtNC4wNSw2LjIzLDAsMC0xLTE4LTcuMzMtMzcuNVoiIGZpbGw9IiNmYmU0OTMi
+        IHN0cm9rZT0iIzAwMjM0NiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiAvPg0KICAgIDxwb2x5Z29uIHBv
+        aW50cz0iNDM0LjczIDQxNC4wNCA0MDAuNjUgNjY1LjE0IDQwOS4yNyA2NjUuMTQgNDU3LjgyIDQxNC4w
+        NCA0MzQuNzMgNDE0LjA0IiBmaWxsPSIjZTZlN2U4IiBzdHJva2U9IiMwMDIzNDYiIHN0cm9rZS1taXRl
+        cmxpbWl0PSIxMCIgLz4NCiAgICA8cG9seWdvbiBwb2ludHM9IjY5Ni40MiA0MTQuMDQgNzMwLjUgNjY1
+        LjE0IDcyMS44OCA2NjUuMTQgNjczLjMzIDQxNC4wNCA2OTYuNDIgNDE0LjA0IiBmaWxsPSIjZTZlN2U4
+        IiBzdHJva2U9IiMwMDIzNDYiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgLz4NCiAgICA8cmVjdCB4PSIz
+        OTguMzgiIHk9IjQwMy44MiIgd2lkdGg9IjMzNC43OSIgaGVpZ2h0PSIxNC4zOSIgcng9IjcuMiIgcnk9
+        IjcuMiIgZmlsbD0iI2U2ZTdlOCIgc3Ryb2tlPSIjMDAyMzQ2IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAi
+        IC8+DQogICAgPHBhdGggZD0iTTUyNy45LDU2NS45MXMtMTAuNiwzNy4xMS02LjgyLDQ2LjU4YzAsMCw4
+        LjcxLDE5LjMxLDE3LjgsMjUuMzcsMCwwLTIyLjcyLDE3LjQyLTMyLjk1LTQuOTIsMCwwLTguODYtMTAu
+        MzktOS41Ny0yNC4zLS4wOS0xLjc1LC4yNi0zLjQ4LC45Ny01LjA1aDBjLjM3LS44MywuODUtMS42MSwx
+        LjQyLTIuMzMsMi4xNC0yLjczLDUuMDQtNy41Niw1LjI4LTEzLjg4bDMuMDMtOTQuOTVzMS41MS0xNy44
+        Ni0zLjAzLTEyLjE1bC0yMC44Myw5Ni4zMnMtNy40NCwzMi40Mi04Ljg0LDM2LjYxYzAsMC0yNy41Miw0
+        LjU0LTI1LjI1LTMuNTksMCwwLDMuOC0xNy41MSw3LjY1LTIyLjI1LC43NS0uOTIsMS4xNy0yLjA2LDEu
+        My0zLjIzLDEuNzctMTYuMDcsMTIuMzItMTExLjc4LDEyLjQ1LTExNi45MSwwLDAtMTguNTYtMjAuODMs
+        MTQuMi00OS4wNGg1NS4yMXM4LjgzLDI0LjAxLDcuMSw0OC45M2MwLDAtNy40LDU2LjM2LTE5LjE0LDk4
+        Ljc3WiIgZmlsbD0iI2YxYjJjMCIgc3Ryb2tlPSIjMDAyMzQ2IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAi
+        IC8+DQogICAgPHBhdGggZD0iTTUyNS40MSwzMTkuNzVsNC40OSwzMS4zLDg3LjYyLDIxLjMzdjE1LjVs
+        LTkyLjExLTExLjE1cy0yMC4wNC0xLjIxLTE5Ljc2LTEzLjJsLTEuNjEtMjEuNDZzNC42Ni01Ljg2LDcu
+        MjUtMTYuNTZjMCwwLDkuNzMtMS41OSwxNC4xMS01Ljc3WiIgZmlsbD0iI2YxYjJjMCIgc3Ryb2tlPSIj
+        MDAyMzQ2IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+DQogICAgPHBvbHlnb24gcG9pbnRzPSI2ODMu
+        NDUgMzcyLjQ1IDUzOS43OCAzNzIuOTUgNTY4LjA1IDI3MC44OSA3MTMuNDUgMjcwLjQ1IDY4My40NSAz
+        NzIuNDUiIGZpbGw9IiNmZmYiIHN0cm9rZT0iIzAwMjM0NiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiAv
+        Pg0KICAgIDxwb2x5Z29uIHBvaW50cz0iNTY1LjUzIDQwMy44MiA0ODQuNzMgNDAzLjgyIDQ4NC43MyAz
+        OTMuOTcgNTY1Ljc3IDM5My45NyA1NjUuNTMgNDAzLjgyIiBmaWxsPSIjZTZlN2U4IiBzdHJva2U9IiMw
+        MDIzNDYiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgLz4NCiAgICA8cG9seWdvbiBwb2ludHM9IjY4My41
+        NiAzNzIuNzYgNTQ0LjU2IDM3Mi43NiA1NzEuODMgMjc0LjY3IDcxMS45NiAyNzQuNjcgNjgzLjU2IDM3
+        Mi43NiIgZmlsbD0iI2Y2OTA3NCIgc3Ryb2tlPSIjMDAyMzQ2IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAi
+        IC8+DQogICAgPHBhdGggZD0iTTY1OC44OSwzOTUuMTJsLTE1LjE3LTQ0LjA2aC0zNy42NWwxMy4yLDQw
+        LjgyYy43LDIuMTYtLjkxLDQuMzctMy4xOCw0LjM3aC0zNS4yMmMtMi4wNSwwLTMuODksMS41NC00LDMu
+        NTgtLjExLDIuMTgsMS42MiwzLjk5LDMuNzgsMy45OWg3Mi4wMmM0LjUxLDAsNy42Ny00LjQ0LDYuMjEt
+        OC43Wm0tMjEuNDUtMTNjLS40MiwuMDgtLjg0LC4wOS0xLjI2LC4wNS0yLjQyLS4yNi00LjYtMi41MS01
+        LjE4LTUuNTgtLjU5LTMuMTUsLjctNi4xMiwyLjk3LTcuMTcsLjMyLS4xNSwuNjYtLjI2LDEuMDEtLjMz
+        LDIuODgtLjU0LDUuNzYsMS45NCw2LjQ0LDUuNTMsLjY4LDMuNi0xLjExLDYuOTUtMy45OCw3LjQ5WiIg
+        ZmlsbD0iI2Y2OTA3NCIgc3Ryb2tlPSIjMDAyMzQ2IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+DQog
+        ICAgPHBhdGggZD0iTTYzNy40NCwzODIuMTJjLS40MiwuMDgtLjg0LC4wOS0xLjI2LC4wNSwuMjcsLjI5
+        LDMuNjUtMy43NywyLjk3LTcuMTdzLTIuMjktNS4yOS00LjctNS41NWMuMzItLjE1LC4xOC0uMywuNTQt
+        LjM2LDIuODgtLjU0LDUuNzYsMS45NCw2LjQ0LDUuNTMsLjY4LDMuNi0xLjExLDYuOTUtMy45OCw3LjQ5
+        WiIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjMDAyMzQ2IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+DQog
+        ICAgPGVsbGlwc2UgY3g9IjYzNy40NSIgY3k9IjMxOC4wOCIgcng9IjEyLjAyIiByeT0iOS40NyIgZmls
+        bD0ibm9uZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTI5LjUyLCA4MTcuNikgcm90YXRlKC03MS4wNCwg
+        MCwgMCkiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiAvPg0KICAgIDxsaW5lIHgx
+        PSI0NDUuOTkiIHkxPSIzMjYuMjQiIHgyPSI0NDQuNjIiIHkyPSIyOTUuNTgiIGZpbGw9Im5vbmUiIHN0
+        cm9rZT0iIzAwMjM0NiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5k
+        IiAvPg0KICAgIDxwYXRoIGQ9Ik01MDQuMDQsMzQyLjA5Yy0zLjA0LS41MS02LjU1LS44OC0xMC40NC0u
+        OS03LjE4LS4wNC0xMy4yOCwxLjEtMTcuOSwyLjM2IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDIzNDYi
+        IHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4NCiAgICA8bGlu
+        ZSB4MT0iNTA1Ljc2IiB5MT0iNDc4LjMzIiB4Mj0iNTExLjQxIiB5Mj0iNDM5Ljc4IiBmaWxsPSJub25l
+        IiBzdHJva2U9IiMwMDIzNDYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJy
+        b3VuZCIgLz4NCiAgICA8cG9seWdvbiBwb2ludHM9IjEwNi4zNCA0OTIuNDEgOTguMDQgNjM4LjM4IDIy
+        OC4yIDYzMC40MyAyMTguNTQgNDkzLjEgMTA2LjM0IDQ5Mi40MSIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIj
+        MDAyMzQ2IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+DQogICAgPHBvbHlnb24gcG9pbnRzPSI3Ni4x
+        NSA2MjEuNjMgOTguMDQgNjM4LjM4IDEwNi4zNCA0OTIuNDEgOTAuOTQgNDg4LjMyIDc2LjE1IDYyMS42
+        MyIgZmlsbD0iI2U2ZTdlOCIgc3Ryb2tlPSIjMDAyMzQ2IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+
+        DQogICAgPHBhdGggZD0iTTkwLjk3LDQ4OC4zM2wxNS4zOCw0LjA4LDExMi40MywuNjgtMjYuNDYtNS4w
+        OS0xMDEuMzQsLjMyczAsMCwwLDBaIiBmaWxsPSIjZmZmIiBzdHJva2U9IiMwMDIzNDYiIHN0cm9rZS1t
+        aXRlcmxpbWl0PSIxMCIgLz4NCiAgICA8cGF0aCBkPSJNMTU1LjQ3LDQ1MC42MWMtMTcuNzEsMi41LTIw
+        LjkxLDQyLjE5LTIwLjkxLDQyLjE5bDEyLjYxLS4yNHMtMS4zOS0yNi41Myw3LjE1LTMyLjg1YzguNTQt
+        Ni4zMywxMC44NSwzMy4zOSwxMC44NSwzMy4zOWwxOS4zMi0uMTFzLTExLjMyLTQ0Ljg2LTI5LjAxLTQy
+        LjM3WiIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjMDAyMzQ2IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+
+        DQogICAgPHBvbHlnb24gcG9pbnRzPSIyNTQuNjQgNTE4LjUyIDI2OC4zOSA2NDIuODQgMjk5LjU4IDYy
+        Ni40NyAyNzMuOTMgNTE0LjQzIDI1NC42NCA1MTguNTIiIGZpbGw9IiNmNjkwNzQiIHN0cm9rZT0iIzAw
+        MjM0NiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiAvPg0KICAgIDxwYXRoIGQ9Ik0xMzcuMSw1MTQuNDhs
+        MTE3LjU0LDQuMDMsMTguOTktNC4wMnMuMDQtLjA3LDAtLjA4bC0xMjMuMzYtNS4xNC0xMy4xNiw1LjIx
+        WiIgZmlsbD0iIzAwMjM0NiIgc3Ryb2tlPSIjMDAyMzQ2IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+
+        DQogICAgPHBhdGggZD0iTTIwNi4yMyw0NzAuODhjLTIyLjA0LS45MS0yNC43MSw0MC4wOC0yNC43MSw0
+        MC4wOGwxMS44LC42OGM0LjIzLTE4LjgyLDcuNTktMzQuMTksMTUuMTUtMzIuMzksNy41NSwxLjgsNy4w
+        OSwzMi44NSw3LjA5LDMyLjg1bDE0LjU4LC44OHMtMS44Ni00MS4xOS0yMy45MS00Mi4xWiIgZmlsbD0i
+        I2ZmZiIgc3Ryb2tlPSIjMDAyMzQ2IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+DQogICAgPHBhdGgg
+        ZD0iTTIwMS4yMyw0NzcuODhjLTIyLjA0LS45MS0yNC43MSw0MC4wOC0yNC43MSw0MC4wOGwxMS44LC42
+        OGM0LjIzLTE4LjgyLDcuNTktMzQuMTksMTUuMTUtMzIuMzksNy41NSwxLjgsNy4wOSwzMi44NSw3LjA5
+        LDMyLjg1bDE0LjU4LC44OHMtMS44Ni00MS4xOS0yMy45MS00Mi4xWiIgZmlsbD0iI2ZmZiIgc3Ryb2tl
+        PSIjMDAyMzQ2IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+DQogICAgPHBvbHlnb24gcG9pbnRzPSIx
+        MzcuMSA1MTQuNDYgMTE4LjcxIDYzNS4yNCAxMjguNTYgNjM2LjQ1IDI2OC4zOSA2NDIuODIgMjU0LjY0
+        IDUxOC40OSAxMzcuMSA1MTQuNDYiIGZpbGw9IiNmNjkwNzQiIHN0cm9rZT0iIzAwMjM0NiIgc3Ryb2tl
+        LW1pdGVybGltaXQ9IjEwIiAvPg0KICAgIDxnPg0KICAgICAgPGVsbGlwc2UgY3g9IjQ0Ni4wOCIgY3k9
+        IjE5NS43IiByeD0iMTIuMjYiIHJ5PSIxMi40NyIgZmlsbD0iIzAwMjM0NiIgdHJhbnNmb3JtPSJ0cmFu
+        c2xhdGUoLTMzLjgzLCAxMTIuMTkpIHJvdGF0ZSgtMTMuODIsIDAsIDApIiBzdHJva2U9IiMwMDIzNDYi
+        IHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgLz4NCiAgICAgIDxlbGxpcHNlIGN4PSI0NTQuOSIgY3k9IjIw
+        MS40IiByeD0iOS40MyIgcnk9IjkuNiIgZmlsbD0iI2Y2OTA3NCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUo
+        LTM0LjkzLCAxMTQuNDYpIHJvdGF0ZSgtMTMuODIsIDAsIDApIiBzdHJva2U9IiMwMDIzNDYiIHN0cm9r
+        ZS1taXRlcmxpbWl0PSIxMCIgLz4NCiAgICAgIDxwYXRoIGQ9Ik00ODcuMTMsMjEwLjA2Yy0yLjA2LDIu
+        Ny02Ljc5LDcuMjEtMTYuOSwxMC41NSwwLDAsMi4xMyw2LjQ5LTQuNTQsMTQuMy0xLjk0LDIuMjctMy4w
+        NSw1LjE3LTIuOTgsOC4xOSwuMSw0Ljc4LDEuNzUsOS4zNSwxMC43NSwxMy4zNSwwLDAtNi4zOSw1Ljk3
+        LTE0LjI0LDUuMjksMCwwLTMuNDEsNS43NC0xMSw3LjIxLTMuMTMsLjYxLTYuNDItLjYxLTguMzMtMy4y
+        MS0yLjU1LTMuNDctNC45Mi0xMC4yMS0zLjMxLTIzLjE3LDAsMCwuNi00NC40MywyNC43NS01MC4zNyww
+        LDAsMTAuNy00LjUsMjEuNDYtMS42OCwxMC44NSwyLjg1LDE2Ljc0LDIwLjU5LDE0Ljg5LDI5bC0yLjQ5
+        LTMuMjJjLTIuMDItMi42MS0yLjQxLTMuMTItMy44My01LjgzLS4xNC0uMjctLjMzLS41Mi0uNTYtLjcy
+        aDBjLTEuMS0xLTIuNzYtLjg3LTMuNjYsLjMxWiIgZmlsbD0iIzAwMjM0NiIgc3Ryb2tlPSIjMDAyMzQ2
+        IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+DQogICAgPC9nPg0KICAgIDx0ZXh0IGxldHRlci1zcGFj
+        aW5nPSIwLjA0ZW0iIGZvbnQtd2VpZ2h0PSI1MDAiIGZpbGw9IiMwMDIzNDYiIHRyYW5zZm9ybT0idHJh
+        bnNsYXRlKDY0MS45MywgODcuNjYpIiBmb250LWZhbWlseT0iQmFybG93LU1lZGl1bSwgQmFybG93IiBm
+        b250LXNpemU9IjEycHgiPg0KICAgICAgPHRzcGFuIHg9IjBweCIgeT0iMHB4Ij5WSVA8L3RzcGFuPg0K
+        ICAgIDwvdGV4dD4NCiAgPC9nPg0KICA8Zz4NCiAgICA8cGF0aCBkPSJNNjM4LjE2LDU5MS45OGMuMiwy
+        LjM0LC41MSw0Ljk4LC45Niw3LjY3LDAsMCw5LjQ4LTMxLjAyLDQwLjY0LTI3LjAybC02LjEyLTEzLjQ4
+        LTUuMDYtNS4wNmMtMTAuMTYsNS4yOC0yMCwzLjY5LTI2LjcyLDE3LjMyLTMuMTQsNi4zNi00LjMxLDEz
+        LjUxLTMuNjksMjAuNThaIiBmaWxsPSIjN2NkMjk1IiBzdHJva2U9IiMwMDIzNDYiIHN0cm9rZS1taXRl
+        cmxpbWl0PSIxMCIgLz4NCiAgICA8cGF0aCBkPSJNNzI2LjAxLDU2Mi4yN2MtMjguMTIsLjAzLTMyLjMy
+        LTQxLjQxLTMuOTEtNzUuOSwuMDktLjExLC4yNy0uMDQsLjI2LC4xMS0xLjEyLDExLjc2LDMzLjQsNTMu
+        OSwxMC43OCw3My4xOS0xLjk5LDEuNjktNC41MSwyLjYtNy4xMiwyLjZaIiBmaWxsPSIjN2NkMjk1IiBz
+        dHJva2U9IiMwMDIzNDYiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgLz4NCiAgICA8cGF0aCBkPSJNNzI0
+        LjMxLDU0Ni43OWMtMTcuNzQtMTAuNTMtMTMuNzQtNDIuMSwzOC44My02MC43MywuMS0uMDMsLjIsLjA2
+        LC4xNiwuMTUtLjYsMS43MS00LjA4LDEyLjg4LTUuOTEsNDQuNC0uNDksOC40LTEyLjQ5LDI4LjQtMzMu
+        MDgsMTYuMTdaIiBmaWxsPSIjN2NkMjk1IiBzdHJva2U9IiMwMDIzNDYiIHN0cm9rZS1taXRlcmxpbWl0
+        PSIxMCIgLz4NCiAgICA8cGF0aCBkPSJNNzQyLjY3LDYxNS45OGMuOCw2LjIxLTQxLjMsNi4yMS00MC41
+        LDAtLjgtNi4yMSw0MS4zLTYuMjEsNDAuNSwwWiIgZmlsbD0iIzAwMjM0NiIgc3Ryb2tlPSIjMDAyMzQ2
+        IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+DQogICAgPHBhdGggZD0iTTc0NC4zMyw2NzAuOThjLTEu
+        ODItLjI3LTQ4LjE4LC43OS00OC4yOS0uODYtOS4xMy00LjMzLTkuNTItMTguNDctOS41Mi0xOC40Ny0x
+        LjM4LTE4Ljg3LDE1LjY1LTI4Ljk5LDE1LjY1LTI4Ljk5di02LjY3Yy0uOCw2LjIxLDQxLjMsNi4yMSw0
+        MC41LDB2Ny4xM2MyMi4yOSwxNC42MywxNy43Nyw0Ni4zOCwxLjY2LDQ3Ljg2WiIgZmlsbD0iI2Y2OTA3
+        NCIgc3Ryb2tlPSIjMDAyMzQ2IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+DQogICAgPHBhdGggZD0i
+        TTc0NC4wNSw2MzEuNGMuMDUsMy41OC01LjU4LDMuNTgtNS41MiwwLS4wNS0zLjU4LDUuNTgtMy41OCw1
+        LjUyLDBaIiBmaWxsPSIjZmZmIiAvPg0KICAgIDxwYXRoIGQ9Ik03NTIuMzMsNjM5LjY4Yy4wNSwzLjU4
+        LTUuNTgsMy41OC01LjUyLDAtLjA1LTMuNTgsNS41OC0zLjU4LDUuNTIsMFoiIGZpbGw9IiNmZmYiIC8+
+        DQogICAgPHBhdGggZD0iTTc1My43MSw2NTMuMDNjLjA1LDMuNTgtNS41OCwzLjU4LTUuNTIsMC0uMDUt
+        My41OCw1LjU4LTMuNTgsNS41MiwwWiIgZmlsbD0iI2ZmZiIgLz4NCiAgICA8cGF0aCBkPSJNNzQ2LjM1
+        LDY2My4xNmMuMDUsMy41OC01LjU4LDMuNTgtNS41MiwwLS4wNS0zLjU4LDUuNTgtMy41OCw1LjUyLDBa
+        IiBmaWxsPSIjZmZmIiAvPg0KICAgIDxwYXRoIGQ9Ik03MjMuOCw2NjUuOTJjLjA1LDMuNTgtNS41OCwz
+        LjU4LTUuNTIsMC0uMDUtMy41OCw1LjU4LTMuNTgsNS41MiwwWiIgZmlsbD0iI2ZmZiIgLz4NCiAgICA8
+        cGF0aCBkPSJNNzA2LjMxLDY2My4xNmMuMDUsMy41OC01LjU4LDMuNTgtNS41MiwwLS4wNS0zLjU4LDUu
+        NTgtMy41OCw1LjUyLDBaIiBmaWxsPSIjZmZmIiAvPg0KICAgIDxwYXRoIGQ9Ik02OTYuNjUsNjU1LjMz
+        Yy4wNSwzLjU4LTUuNTgsMy41OC01LjUyLDAtLjA1LTMuNTgsNS41OC0zLjU4LDUuNTIsMFoiIGZpbGw9
+        IiNmZmYiIC8+DQogICAgPHBhdGggZD0iTTY5OC4wMyw2MzkuNjhjLjA1LDMuNTgtNS41OCwzLjU4LTUu
+        NTIsMC0uMDUtMy41OCw1LjU4LTMuNTgsNS41MiwwWiIgZmlsbD0iI2ZmZiIgLz4NCiAgICA8cGF0aCBk
+        PSJNNzA4LjE1LDYzMC40OGMuMDUsMy41OC01LjU4LDMuNTgtNS41MiwwLS4wNS0zLjU4LDUuNTgtMy41
+        OCw1LjUyLDBaIiBmaWxsPSIjZmZmIiAvPg0KICAgIDxwYXRoIGQ9Ik03MTcuMzYsNjM4Ljc2Yy4wNSwz
+        LjU4LTUuNTgsMy41OC01LjUyLDAtLjA1LTMuNTgsNS41OC0zLjU4LDUuNTIsMFoiIGZpbGw9IiNmZmYi
+        IC8+DQogICAgPHBhdGggZD0iTTcwNi43Nyw2NDYuMTNjLjA1LDMuNTgtNS41OCwzLjU4LTUuNTIsMC0u
+        MDUtMy41OCw1LjU4LTMuNTgsNS41MiwwWiIgZmlsbD0iI2ZmZiIgLz4NCiAgICA8cGF0aCBkPSJNNzE1
+        Ljk3LDY1NS4zM2MuMDUsMy41OC01LjU4LDMuNTgtNS41MiwwLS4wNS0zLjU4LDUuNTgtMy41OCw1LjUy
+        LDBaIiBmaWxsPSIjZmZmIiAvPg0KICAgIDxwYXRoIGQ9Ik03MjYuMSw2NDcuNTFjLjA1LDMuNTgtNS41
+        OCwzLjU4LTUuNTIsMC0uMDUtMy41OCw1LjU4LTMuNTgsNS41MiwwWiIgZmlsbD0iI2ZmZiIgLz4NCiAg
+        ICA8cGF0aCBkPSJNNzI3Ljk0LDYzMS44NmMuMDUsMy41OC01LjU4LDMuNTgtNS41MiwwLS4wNS0zLjU4
+        LDUuNTgtMy41OCw1LjUyLDBaIiBmaWxsPSIjZmZmIiAvPg0KICAgIDxwYXRoIGQ9Ik03MzYuMjMsNjQx
+        LjUzYy4wNSwzLjU4LTUuNTgsMy41OC01LjUyLDAtLjA1LTMuNTgsNS41OC0zLjU4LDUuNTIsMFoiIGZp
+        bGw9IiNmZmYiIC8+DQogICAgPHBhdGggZD0iTTc0Mi42Nyw2NDcuOTdjLjA1LDMuNTgtNS41OCwzLjU4
+        LTUuNTIsMC0uMDUtMy41OCw1LjU4LTMuNTgsNS41MiwwWiIgZmlsbD0iI2ZmZiIgLz4NCiAgICA8cGF0
+        aCBkPSJNNzMzLjQ2LDY1Ny4xN2MuMDUsMy41OC01LjU4LDMuNTgtNS41MiwwLS4wNS0zLjU4LDUuNTgt
+        My41OCw1LjUyLDBaIiBmaWxsPSIjZmZmIiAvPg0KICAgIDxwYXRoIGQ9Ik03NjcuNTIsNTg0LjkyYy0x
+        NS4xOC0xMi4zNi0zNi43Niw0LjYxLTE1LjE5LDI1Ljc3LDAsMCwxMS4wNSwxMC4xMiwxNS42NSwyMC43
+        MSwwLDAsMjEuMTctMTUuMTksMjEuNjMtMzUuOSwwLDAsMC0yMS4xNy0yMi4wOS0xMC41OVoiIGZpbGw9
+        IiM3Y2QyOTUiIHN0cm9rZT0iIzAwMjM0NiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiAvPg0KICAgIDxw
+        YXRoIGQ9Ik02MzguNjgsNTgyLjM1YzIzLjg1LTQyLjA0LDM0LjAzLDEuMTksNjkuOTMtNC44LC41NC00
+        OC4zMy02OS40LTQ2LjMtNjkuOTMsNC44WiIgZmlsbD0iIzdjZDI5NSIgc3Ryb2tlPSIjMDAyMzQ2IiBz
+        dHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+DQogICAgPHBhdGggZD0iTTcwMi4xNyw2MjIuNjZzMTYuOTks
+        OC43Miw0MC41LC40NiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAyMzQ2IiBzdHJva2UtbGluZWNhcD0i
+        cm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+DQogICAgPHBhdGggZD0iTTcyNi42OCw2MDAu
+        MzVzMTAtNDIsMzUuNDUtMjEuNjNjMy41OCwyLjg2LDUuODIsNy4wOCw2LjkxLDExLjUzLDEuNjksNi45
+        LDMuODMsMTkuNDYsMS4xNCwzMS42IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDIzNDYiIHN0cm9rZS1s
+        aW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4NCiAgICA8cGF0aCBkPSJNNzU5
+        LjE4LDQ4OS44NXMtNDcsMzQtMzEsMTI2IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDIzNDYiIHN0cm9r
+        ZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4NCiAgICA8cGF0aCBkPSJN
+        NjU3LjE4LDU1NC44NXM2Mi0xLDY0LDYwIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDIzNDYiIHN0cm9r
+        ZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4NCiAgPC9nPg0KPC9zdmc+
+        Cw==
+</value>
+  </data>
+  <data name="svgImageBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="svgImageBox1.Text" xml:space="preserve">
+    <value>svgImageBox1</value>
+  </data>
+  <data name="&gt;&gt;svgImageBox1.Name" xml:space="preserve">
+    <value>svgImageBox1</value>
+  </data>
+  <data name="&gt;&gt;svgImageBox1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SvgImageBox, DevExpress.Utils.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;svgImageBox1.Parent" xml:space="preserve">
+    <value>splitContainerControl1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;svgImageBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainerControl1.Panel2.Text" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Panel2.Name" xml:space="preserve">
+    <value>splitContainerControl1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Panel2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SplitGroupPanel, DevExpress.Utils.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainerControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1254, 674</value>
+  </data>
+  <data name="splitContainerControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Name" xml:space="preserve">
+    <value>splitContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SplitContainerControl, DevExpress.Utils.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 42</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1278, 698</value>
+  </data>
+  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="barManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="barButtonItem1.Caption" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="barButtonItem1.ItemAppearance.Hovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 16.2pt</value>
+  </data>
+  <data name="barButtonItem1.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 16.2pt</value>
+  </data>
+  <data name="barButtonItem1.ItemAppearance.Pressed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 16.2pt, style=Bold</value>
+  </data>
+  <data name="barButtonItem1.ItemAppearance.Pressed.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Bold</value>
+  </data>
+  <data name="barButtonItem2.Caption" xml:space="preserve">
+    <value>Catalog</value>
+  </data>
+  <data name="barButtonItem2.ItemAppearance.Hovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 16.2pt</value>
+  </data>
+  <data name="barButtonItem2.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 16.2pt</value>
+  </data>
+  <data name="barButtonItem2.ItemAppearance.Pressed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 16.2pt, style=Bold</value>
+  </data>
+  <data name="barButtonItem2.ItemAppearance.Pressed.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Bold</value>
+  </data>
+  <data name="barButtonItem3.Caption" xml:space="preserve">
+    <value>Orders</value>
+  </data>
+  <data name="barButtonItem3.ItemAppearance.Hovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 16.2pt</value>
+  </data>
+  <data name="barButtonItem3.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 16.2pt</value>
+  </data>
+  <data name="barButtonItem3.ItemAppearance.Pressed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 16.2pt, style=Bold</value>
+  </data>
+  <data name="barButtonItem3.ItemAppearance.Pressed.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Bold</value>
+  </data>
+  <data name="barButtonItem4.Caption" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="barButtonItem4.ItemAppearance.Hovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 16.2pt</value>
+  </data>
+  <data name="barButtonItem4.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 16.2pt</value>
+  </data>
+  <data name="barButtonItem4.ItemAppearance.Pressed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 16.2pt, style=Bold</value>
+  </data>
+  <data name="barButtonItem4.ItemAppearance.Pressed.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Bold</value>
+  </data>
+  <data name="barButtonItem5.Caption" xml:space="preserve">
+    <value>My account</value>
+  </data>
+  <data name="barButtonItem5.ItemAppearance.Hovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 16.2pt</value>
+  </data>
+  <data name="barButtonItem5.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 16.2pt</value>
+  </data>
+  <data name="barButtonItem5.ItemAppearance.Pressed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 16.2pt, style=Bold</value>
+  </data>
+  <data name="barButtonItem5.ItemAppearance.Pressed.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Bold</value>
+  </data>
+  <data name="bar2.Text" xml:space="preserve">
+    <value>Main menu</value>
+  </data>
+  <data name="bar3.Text" xml:space="preserve">
+    <value>Status bar</value>
+  </data>
+  <data name="barDockControlTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="barDockControlTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="barDockControlTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1278, 42</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Name" xml:space="preserve">
+    <value>barDockControlTop</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="barDockControlBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="barDockControlBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 740</value>
+  </data>
+  <data name="barDockControlBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1278, 20</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Name" xml:space="preserve">
+    <value>barDockControlBottom</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="barDockControlLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="barDockControlLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 42</value>
+  </data>
+  <data name="barDockControlLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 698</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Name" xml:space="preserve">
+    <value>barDockControlLeft</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="barDockControlRight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="barDockControlRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1278, 42</value>
+  </data>
+  <data name="barDockControlRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 698</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Name" xml:space="preserve">
+    <value>barDockControlRight</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1278, 760</value>
+  </data>
+  <data name="Main.IconOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIzLjEsIFZlcnNpb249MjMuMS42
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAGsGAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgd2lkdGg9IjI1NnB4IiBo
+        ZWlnaHQ9IjI1NnB4IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0
+        cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5
+        L3hsaW5rIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCiAgPGRlZnMgLz4NCiAgPGcgdHJhbnNmb3JtPSJ0
+        cmFuc2xhdGUoMS40MDY1OTM0MDY1OTM0LCAxLjQwNjU5MzQwNjU5MzQpIHNjYWxlKDIuODEpIiBzdHls
+        ZT0ic3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjA7c3Ryb2tlLWRhc2hhcnJheTpub25lO3N0cm9rZS1s
+        aW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1taXRlcmxpbWl0OjEwO2ZpbGw6
+        bm9uZTtmaWxsLXJ1bGU6bm9uemVybztvcGFjaXR5OjEiPg0KICAgIDxwYXRoIGQ9Ik0gNzIuOTc1IDU4
+        Ljk5NCBIIDMxLjg1NSBjIC0xLjUzOSAwIC0yLjg5NyAtMS4wMDUgLTMuMzQ3IC0yLjQ3NyBMIDE1LjE5
+        OSAxMy4wMDYgSCAzLjUgYyAtMS45MzMgMCAtMy41IC0xLjU2NyAtMy41IC0zLjUgcyAxLjU2NyAtMy41
+        IDMuNSAtMy41IGggMTQuMjg5IGMgMS41MzkgMCAyLjg5NyAxLjAwNSAzLjM0NyAyLjQ3NiBsIDEzLjMw
+        OSA0My41MTIgaCAzNi4yMDQgbCAxMC41ODUgLTI1LjE5MSBIIDQ1IGMgLTEuOTMzIDAgLTMuNSAtMS41
+        NjcgLTMuNSAtMy41IHMgMS41NjcgLTMuNSAzLjUgLTMuNSBoIDQxLjUgYyAxLjE3MiAwIDIuMjY3IDAu
+        NTg3IDIuOTE1IDEuNTYzIHMgMC43NjYgMi4yMTIgMC4zMTIgMy4yOTMgTCA3Ni4yMDEgNTYuODUgQyA3
+        NS42NTUgNTguMTQ5IDc0LjM4NCA1OC45OTQgNzIuOTc1IDU4Ljk5NCB6IiB0cmFuc2Zvcm09Im1hdHJp
+        eCgxLCAwLCAwLCAxLCAwLCAwKSIgc3R5bGU9InN0cm9rZTpub25lO3N0cm9rZS13aWR0aDoxO3N0cm9r
+        ZS1kYXNoYXJyYXk6bm9uZTtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtz
+        dHJva2UtbWl0ZXJsaW1pdDoxMDtmaWxsOnJnYigxMDUsMTA1LDEwNSk7ZmlsbC1ydWxlOm5vbnplcm87
+        b3BhY2l0eToxIiBzdHJva2UtbGluZWNhcD0icm91bmQiIC8+DQogICAgPGNpcmNsZSBjeD0iMjguODgi
+        IGN5PSI3NC4zMyIgcj0iNi4xNiIgdHJhbnNmb3JtPSJtYXRyaXgoMSwgMCwgMCwgMSwgMCwgMCkiIHN0
+        eWxlPSJzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MTtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tl
+        LWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW1pdGVybGltaXQ6MTA7Zmls
+        bDpyZ2IoMTA1LDEwNSwxMDUpO2ZpbGwtcnVsZTpub256ZXJvO29wYWNpdHk6MSIgLz4NCiAgICA8Y2ly
+        Y2xlIGN4PSI3NC41OSIgY3k9Ijc0LjMzIiByPSI2LjE2IiB0cmFuc2Zvcm09Im1hdHJpeCgxLCAwLCAw
+        LCAxLCAwLCAwKSIgc3R5bGU9InN0cm9rZTpub25lO3N0cm9rZS13aWR0aDoxO3N0cm9rZS1kYXNoYXJy
+        YXk6bm9uZTtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2UtbWl0
+        ZXJsaW1pdDoxMDtmaWxsOnJnYigxMDUsMTA1LDEwNSk7ZmlsbC1ydWxlOm5vbnplcm87b3BhY2l0eTox
+        IiAvPg0KICA8L2c+DQo8L3N2Zz4L
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Catalog App Main</value>
+  </data>
+  <data name="&gt;&gt;Root.Name" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="&gt;&gt;Root.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barManager1.Name" xml:space="preserve">
+    <value>barManager1</value>
+  </data>
+  <data name="&gt;&gt;barManager1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarManager, DevExpress.XtraBars.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bar2.Name" xml:space="preserve">
+    <value>bar2</value>
+  </data>
+  <data name="&gt;&gt;bar2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Name" xml:space="preserve">
+    <value>barButtonItem1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem2.Name" xml:space="preserve">
+    <value>barButtonItem2</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem3.Name" xml:space="preserve">
+    <value>barButtonItem3</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem4.Name" xml:space="preserve">
+    <value>barButtonItem4</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bar3.Name" xml:space="preserve">
+    <value>bar3</value>
+  </data>
+  <data name="&gt;&gt;bar3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;behaviorManager1.Name" xml:space="preserve">
+    <value>behaviorManager1</value>
+  </data>
+  <data name="&gt;&gt;behaviorManager1.Type" xml:space="preserve">
+    <value>DevExpress.Utils.Behaviors.BehaviorManager, DevExpress.Utils.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Name" xml:space="preserve">
+    <value>gridView1</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem5.Name" xml:space="preserve">
+    <value>barButtonItem5</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <metadata name="behaviorManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>166, 17</value>
+  </metadata>
 </root>
