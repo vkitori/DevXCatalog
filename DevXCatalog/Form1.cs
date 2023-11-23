@@ -23,7 +23,9 @@ namespace DevXCatalog
 
         private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            Form2 form2 = new Form2();
 
+            form2.Show();
         }
 
         private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
