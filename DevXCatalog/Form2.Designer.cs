@@ -48,8 +48,8 @@
             this.gridSplitContainer1View = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colproduct_spec_id = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colproduct_id1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colspecification_value = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colspecification_name = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colspecification_value = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colcategory_name1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
@@ -142,6 +142,7 @@
             this.gridView1.DetailHeight = 591;
             this.gridView1.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus;
             this.gridView1.GridControl = product_detailsGridControl;
+            this.gridView1.GroupPanelText = "Zoznam produkov";
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsBehavior.Editable = false;
             this.gridView1.OptionsEditForm.PopupEditFormWidth = 1600;
@@ -258,9 +259,11 @@
             // 
             // gridSplitContainer1Grid
             // 
+            this.gridSplitContainer1Grid.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.gridSplitContainer1Grid.DataSource = this.product_with_specificationsBindingSource;
             this.gridSplitContainer1Grid.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridSplitContainer1Grid.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.gridSplitContainer1Grid.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridSplitContainer1Grid.Location = new System.Drawing.Point(0, 0);
             this.gridSplitContainer1Grid.MainView = this.gridSplitContainer1View;
             this.gridSplitContainer1Grid.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
@@ -278,14 +281,18 @@
             // 
             // gridSplitContainer1View
             // 
+            this.gridSplitContainer1View.Appearance.GroupPanel.BackColor = System.Drawing.Color.Gray;
+            this.gridSplitContainer1View.Appearance.GroupPanel.Options.UseBackColor = true;
+            this.gridSplitContainer1View.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.gridSplitContainer1View.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.colproduct_spec_id,
             this.colproduct_id1,
-            this.colspecification_value,
             this.colspecification_name,
+            this.colspecification_value,
             this.colcategory_name1});
             this.gridSplitContainer1View.DetailHeight = 591;
             this.gridSplitContainer1View.GridControl = this.gridSplitContainer1Grid;
+            this.gridSplitContainer1View.GroupPanelText = "Detail produktu";
             this.gridSplitContainer1View.Name = "gridSplitContainer1View";
             this.gridSplitContainer1View.OptionsEditForm.PopupEditFormWidth = 1600;
             // 
@@ -294,8 +301,6 @@
             this.colproduct_spec_id.FieldName = "product_spec_id";
             this.colproduct_spec_id.MinWidth = 50;
             this.colproduct_spec_id.Name = "colproduct_spec_id";
-            this.colproduct_spec_id.Visible = true;
-            this.colproduct_spec_id.VisibleIndex = 0;
             this.colproduct_spec_id.Width = 188;
             // 
             // colproduct_id1
@@ -303,35 +308,35 @@
             this.colproduct_id1.FieldName = "product_id";
             this.colproduct_id1.MinWidth = 50;
             this.colproduct_id1.Name = "colproduct_id1";
-            this.colproduct_id1.Visible = true;
-            this.colproduct_id1.VisibleIndex = 1;
             this.colproduct_id1.Width = 188;
-            // 
-            // colspecification_value
-            // 
-            this.colspecification_value.FieldName = "specification_value";
-            this.colspecification_value.MinWidth = 50;
-            this.colspecification_value.Name = "colspecification_value";
-            this.colspecification_value.Visible = true;
-            this.colspecification_value.VisibleIndex = 2;
-            this.colspecification_value.Width = 188;
             // 
             // colspecification_name
             // 
+            this.colspecification_name.AppearanceCell.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colspecification_name.AppearanceCell.Options.UseFont = true;
             this.colspecification_name.FieldName = "specification_name";
             this.colspecification_name.MinWidth = 50;
             this.colspecification_name.Name = "colspecification_name";
             this.colspecification_name.Visible = true;
-            this.colspecification_name.VisibleIndex = 3;
+            this.colspecification_name.VisibleIndex = 0;
             this.colspecification_name.Width = 188;
+            // 
+            // colspecification_value
+            // 
+            this.colspecification_value.AppearanceCell.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colspecification_value.AppearanceCell.Options.UseFont = true;
+            this.colspecification_value.FieldName = "specification_value";
+            this.colspecification_value.MinWidth = 50;
+            this.colspecification_value.Name = "colspecification_value";
+            this.colspecification_value.Visible = true;
+            this.colspecification_value.VisibleIndex = 1;
+            this.colspecification_value.Width = 188;
             // 
             // colcategory_name1
             // 
             this.colcategory_name1.FieldName = "category_name";
             this.colcategory_name1.MinWidth = 50;
             this.colcategory_name1.Name = "colcategory_name1";
-            this.colcategory_name1.Visible = true;
-            this.colcategory_name1.VisibleIndex = 4;
             this.colcategory_name1.Width = 188;
             // 
             // Root
