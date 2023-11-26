@@ -151,6 +151,7 @@
             this.gridView1.OptionsNavigation.AutoMoveRowFocus = false;
             this.gridView1.OptionsSelection.EnableAppearanceFocusedCell = false;
             this.gridView1.OptionsView.ShowFilterPanelMode = DevExpress.XtraGrid.Views.Base.ShowFilterPanelMode.ShowAlways;
+            this.gridView1.OptionsView.ShowVerticalLines = DevExpress.Utils.DefaultBoolean.False;
             this.gridView1.RowHeight = 10;
             this.gridView1.SortInfo.AddRange(new DevExpress.XtraGrid.Columns.GridColumnSortInfo[] {
             new DevExpress.XtraGrid.Columns.GridColumnSortInfo(this.colproduct_id, DevExpress.Data.ColumnSortOrder.Ascending)});
@@ -259,16 +260,19 @@
             // 
             // gridSplitContainer1Grid
             // 
+            this.gridSplitContainer1Grid.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.gridSplitContainer1Grid.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.gridSplitContainer1Grid.DataSource = this.product_with_specificationsBindingSource;
-            this.gridSplitContainer1Grid.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridSplitContainer1Grid.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.gridSplitContainer1Grid.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridSplitContainer1Grid.Location = new System.Drawing.Point(0, 0);
             this.gridSplitContainer1Grid.MainView = this.gridSplitContainer1View;
             this.gridSplitContainer1Grid.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.gridSplitContainer1Grid.MaximumSize = new System.Drawing.Size(2000, 600);
+            this.gridSplitContainer1Grid.MinimumSize = new System.Drawing.Size(1000, 300);
             this.gridSplitContainer1Grid.Name = "gridSplitContainer1Grid";
-            this.gridSplitContainer1Grid.Size = new System.Drawing.Size(1251, 374);
+            this.gridSplitContainer1Grid.Size = new System.Drawing.Size(1251, 300);
             this.gridSplitContainer1Grid.TabIndex = 0;
             this.gridSplitContainer1Grid.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridSplitContainer1View});
@@ -295,6 +299,9 @@
             this.gridSplitContainer1View.GroupPanelText = "Detail produktu";
             this.gridSplitContainer1View.Name = "gridSplitContainer1View";
             this.gridSplitContainer1View.OptionsEditForm.PopupEditFormWidth = 1600;
+            this.gridSplitContainer1View.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.gridSplitContainer1View.OptionsSelection.EnableAppearanceFocusedRow = false;
+            this.gridSplitContainer1View.OptionsView.ShowHorizontalLines = DevExpress.Utils.DefaultBoolean.False;
             // 
             // colproduct_spec_id
             // 
@@ -319,7 +326,7 @@
             this.colspecification_name.Name = "colspecification_name";
             this.colspecification_name.Visible = true;
             this.colspecification_name.VisibleIndex = 0;
-            this.colspecification_name.Width = 188;
+            this.colspecification_name.Width = 300;
             // 
             // colspecification_value
             // 
@@ -330,7 +337,7 @@
             this.colspecification_value.Name = "colspecification_value";
             this.colspecification_value.Visible = true;
             this.colspecification_value.VisibleIndex = 1;
-            this.colspecification_value.Width = 188;
+            this.colspecification_value.Width = 923;
             // 
             // colcategory_name1
             // 
