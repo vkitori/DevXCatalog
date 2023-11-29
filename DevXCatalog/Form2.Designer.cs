@@ -174,7 +174,7 @@
             this.colproduct_name.OptionsColumn.ShowInExpressionEditor = false;
             this.colproduct_name.Visible = true;
             this.colproduct_name.VisibleIndex = 0;
-            this.colproduct_name.Width = 188;
+            this.colproduct_name.Width = 244;
             // 
             // coldescription
             // 
@@ -183,8 +183,8 @@
             this.coldescription.MinWidth = 50;
             this.coldescription.Name = "coldescription";
             this.coldescription.Visible = true;
-            this.coldescription.VisibleIndex = 1;
-            this.coldescription.Width = 188;
+            this.coldescription.VisibleIndex = 2;
+            this.coldescription.Width = 326;
             // 
             // colprice
             // 
@@ -193,8 +193,8 @@
             this.colprice.MinWidth = 50;
             this.colprice.Name = "colprice";
             this.colprice.Visible = true;
-            this.colprice.VisibleIndex = 2;
-            this.colprice.Width = 188;
+            this.colprice.VisibleIndex = 5;
+            this.colprice.Width = 120;
             // 
             // colcountry
             // 
@@ -205,7 +205,7 @@
             this.colcountry.OptionsFilter.AllowAutoFilter = false;
             this.colcountry.Visible = true;
             this.colcountry.VisibleIndex = 3;
-            this.colcountry.Width = 188;
+            this.colcountry.Width = 168;
             // 
             // colproducer
             // 
@@ -214,8 +214,8 @@
             this.colproducer.MinWidth = 50;
             this.colproducer.Name = "colproducer";
             this.colproducer.Visible = true;
-            this.colproducer.VisibleIndex = 5;
-            this.colproducer.Width = 188;
+            this.colproducer.VisibleIndex = 4;
+            this.colproducer.Width = 157;
             // 
             // colcategory_name
             // 
@@ -224,8 +224,8 @@
             this.colcategory_name.MinWidth = 50;
             this.colcategory_name.Name = "colcategory_name";
             this.colcategory_name.Visible = true;
-            this.colcategory_name.VisibleIndex = 4;
-            this.colcategory_name.Width = 188;
+            this.colcategory_name.VisibleIndex = 1;
+            this.colcategory_name.Width = 206;
             // 
             // dataLayoutControl1
             // 
@@ -272,7 +272,7 @@
             this.gridSplitContainer1Grid.MaximumSize = new System.Drawing.Size(2000, 600);
             this.gridSplitContainer1Grid.MinimumSize = new System.Drawing.Size(1000, 300);
             this.gridSplitContainer1Grid.Name = "gridSplitContainer1Grid";
-            this.gridSplitContainer1Grid.Size = new System.Drawing.Size(1251, 300);
+            this.gridSplitContainer1Grid.Size = new System.Drawing.Size(1250, 370);
             this.gridSplitContainer1Grid.TabIndex = 0;
             this.gridSplitContainer1Grid.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridSplitContainer1View});
@@ -298,6 +298,7 @@
             this.gridSplitContainer1View.GridControl = this.gridSplitContainer1Grid;
             this.gridSplitContainer1View.GroupPanelText = "Detail produktu";
             this.gridSplitContainer1View.Name = "gridSplitContainer1View";
+            this.gridSplitContainer1View.OptionsBehavior.Editable = false;
             this.gridSplitContainer1View.OptionsEditForm.PopupEditFormWidth = 1600;
             this.gridSplitContainer1View.OptionsSelection.EnableAppearanceFocusedCell = false;
             this.gridSplitContainer1View.OptionsSelection.EnableAppearanceFocusedRow = false;
@@ -319,8 +320,9 @@
             // 
             // colspecification_name
             // 
-            this.colspecification_name.AppearanceCell.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colspecification_name.AppearanceCell.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.colspecification_name.AppearanceCell.Options.UseFont = true;
+            this.colspecification_name.Caption = "Parameter";
             this.colspecification_name.FieldName = "specification_name";
             this.colspecification_name.MinWidth = 50;
             this.colspecification_name.Name = "colspecification_name";
@@ -330,8 +332,9 @@
             // 
             // colspecification_value
             // 
-            this.colspecification_value.AppearanceCell.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colspecification_value.AppearanceCell.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.colspecification_value.AppearanceCell.Options.UseFont = true;
+            this.colspecification_value.Caption = "Hodnota";
             this.colspecification_value.FieldName = "specification_value";
             this.colspecification_value.MinWidth = 50;
             this.colspecification_value.Name = "colspecification_value";
