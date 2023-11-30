@@ -50,3 +50,6 @@ Relationships:
 - CategorySpecification_Categories: Each category is associated with a specific CategorySpecification.
 - Products_ProductSpecification: associates products with these specifications.
 - ProductSpecification_CategorySpecification: links the specifications of a product to the category-specific specifications defined in the CategorySpecification table.
+
+#### Data views
+![image](https://github.com/vkitori/DevXCatalog/assets/47561823/c8aa3e44-40fd-43bf-99fa-a93c3e905d1c)
