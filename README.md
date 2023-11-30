@@ -2,10 +2,17 @@
 This WinForms application built using DevExpress aims to provide a comprehensive product catalog browsing experience. Users can explore various products, product categories, view their details, and access specific product specifications.
 
 ## Table of Contents
+- [Built With](#built-with)
 - [Features](#features)
 - [Usage](#usage)
 - [Usage Examples](#usage-examples)
-- [Built With](#built-with)
+- [Data Model](#data-model)
+
+### Built With
+- [Microsoft Visual Studio](https://visualstudio.microsoft.com/)
+- [C#](https://learn.microsoft.com/en-us/dotnet/csharp/)
+- [DevExpress](https://www.devexpress.com/)
+- Microsoft SQL Database
 
 ### Features
 - Main Screen: Welcoming users with a friendly message and an image.
@@ -34,8 +41,12 @@ Product detail for category "Elektoronika"
 Product detail for category "Knihy"
 ![image](https://github.com/vkitori/DevXCatalog/assets/47561823/77718f7c-c56b-416f-963c-43800951478a)
 
-### Built With
-- [Microsoft Visual Studio](https://visualstudio.microsoft.com/)
-- [C#](https://learn.microsoft.com/en-us/dotnet/csharp/)
-- [DevExpress](https://www.devexpress.com/)
-- Microsoft SQL Database
+### Data model
+This schema provide posibility to use category-specific specifications, meaning each category can have its own set of specifications defined in the CategorySpecification table. 
+![Blank diagram (1)](https://github.com/vkitori/DevXCatalog/assets/47561823/b5a64f97-4994-47d7-9821-ed3d3804f7ae)
+
+Relationships:
+- Products_Categories: Each product is associated with a specific category.
+- CategorySpecification_Categories: Each category is associated with a specific CategorySpecification.
+- Products_ProductSpecification: associates products with these specifications.
+- ProductSpecification_CategorySpecification: links the specifications of a product to the category-specific specifications defined in the CategorySpecification table.
